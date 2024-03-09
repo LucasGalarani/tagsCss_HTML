@@ -1,0 +1,29 @@
+/* element selector */
+p {
+    text-align: center;
+    color: red;
+}
+
+/* ID selectors */
+#para1 {
+    text-align: center;
+    color: red;
+}
+
+/* class selector */
+.center {
+    font-size: 15px;
+    color: aliceblue;
+}
+
+h1.center {
+    text-align: center;
+    color: red;
+}
+
+/* universal selector */
+
+* {
+    text-decoration: dashed;
+    cursor: alias;
+}
