@@ -1,0 +1,39 @@
+/* background color */
+
+.head {
+    background-color: aliceblue;
+}
+
+div {
+    background-color: aquamarine;
+    opacity: 0.2;
+}
+
+/*  background image */
+
+h1 {
+    background-image: url("bgdesert.jpg");
+}
+
+body {
+    background-image: url("gradient_bg.png");
+    background-repeat: repeat-x;
+}
+
+p {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat; /* repete uma vez */
+    background-position: right top;
+  }
+
+  /* background attchement */
+  h2 {
+    background-image: url("img_tree.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll; /* Se a imagem vai rolar com a pagina ou ficar fixa */
+    background-size: cover; /* Tamanho da imagem */
+    background-clip: border-box; /* especifica a area pintada da imagem */
+    background-origin: initial; /* origem do background */
+  }
+
